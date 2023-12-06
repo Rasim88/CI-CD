@@ -2,7 +2,7 @@ deploy to production:
   stage: deploy
   variables:
     TARGET_ENV: production
-    MyLogin: "Production ROMAN"
+    MyLogin: "Production RASIM"
   script:
     - echo "Do your deploy here to ${TARGET_ENV}"
     - echo ${DB_SERVER}
